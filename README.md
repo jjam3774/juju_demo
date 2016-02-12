@@ -1,23 +1,17 @@
-# juju_demo
+**Steps to getting started quickly**:
 
+1.     juju init
+2.     juju env local
+3.     juju bootstrap
 
-Steps to getting started quickly:
+**To deploy**:
 
-1. juju init
-
-2. juju  env local
-
-3. juju bootstrap
-
-To deploy:
-
-juju deploy wordpress # or any service that want deployed
+    juju deploy wordpress # or any service that want deployed
 
 To destroy the setup:
 
-juju destroy-environment local
+    juju destroy-environment local
 
 To get started with GUI:
 
-juju-quickstart -i
-
+    juju-quickstart -i
